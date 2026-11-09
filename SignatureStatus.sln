@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{0A47FE66-C1AB-40F2-AE80-EDDA6E2CCD3A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7C9C163D-07A6-4E1A-A869-BECA7E25E614}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignatureStatus.Api", "backend\src\SignatureStatus.Api\SignatureStatus.Api.csproj", "{00104F7D-19B0-45E3-ADAE-EBF15CBF2EEC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{347F6327-DAC3-4F79-BB53-1413F6D97C62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignatureStatus.Tests", "backend\tests\SignatureStatus.Tests\SignatureStatus.Tests.csproj", "{8466A29B-921C-4023-B079-8924B12EDDBD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00104F7D-19B0-45E3-ADAE-EBF15CBF2EEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00104F7D-19B0-45E3-ADAE-EBF15CBF2EEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00104F7D-19B0-45E3-ADAE-EBF15CBF2EEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00104F7D-19B0-45E3-ADAE-EBF15CBF2EEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8466A29B-921C-4023-B079-8924B12EDDBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8466A29B-921C-4023-B079-8924B12EDDBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8466A29B-921C-4023-B079-8924B12EDDBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8466A29B-921C-4023-B079-8924B12EDDBD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7C9C163D-07A6-4E1A-A869-BECA7E25E614} = {0A47FE66-C1AB-40F2-AE80-EDDA6E2CCD3A}
+		{00104F7D-19B0-45E3-ADAE-EBF15CBF2EEC} = {7C9C163D-07A6-4E1A-A869-BECA7E25E614}
+		{347F6327-DAC3-4F79-BB53-1413F6D97C62} = {0A47FE66-C1AB-40F2-AE80-EDDA6E2CCD3A}
+		{8466A29B-921C-4023-B079-8924B12EDDBD} = {347F6327-DAC3-4F79-BB53-1413F6D97C62}
+	EndGlobalSection
+EndGlobal
